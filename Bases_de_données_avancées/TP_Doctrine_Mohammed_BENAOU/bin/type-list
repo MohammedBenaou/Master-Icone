@@ -1,0 +1,14 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php";
+
+$typeRepo = $entityManager->getRepository("Type");
+$types = $typeRepo->findAll();
+	echo " ------------------------\n";
+	echo "|  ID   |      Type      |\n";
+	echo "|-------|----------------|\n";
+foreach ($types as $i) {
+	echo "    " .$i->getId() . "        " . $i->getType() . "\n";
+	echo "|-------|----------------|\n";
+}

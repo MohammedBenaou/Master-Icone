@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<element name= "mediatheque"
+	xmlns = "http://example.org">
+		 <oneOrMore>
+	  		<element name="musique">  
+	  			<element name="contenu"> 
+	  				2 CD de musique assez variee
+	  			</element>
+	  			<oneOrMore>
+	  				<element name="cd">
+	  					<optional> 
+	  		   				 <attribute name="type">
+	  		   		 			 SACD 
+	  		   				 </attribute>
+	  		   			 </optional>
+	  		  	 		 <element name="chanson"> 
+	  		   			 		<attribute name="duree">
+	  		   			 			 00:05:27 
+	  		   					 </attribute>
+	  		   				 Eyepennies
+	  		   			 </element>
+	  		   			 <element name="chanson"> 
+	  		   			 		<attribute name="duree">
+	  		   		 			 00:02:46 
+	  		   					 </attribute>
+	  		   			 	Dog door
+	  		   			 </element>
+	  				</element>	
+	  					<element name="cd">
+	  		  	 		 	<element name="titre"> 
+	  		   					 BOF Le fabuleux destin...
+	  		   				 </element>
+	  		   				 		<element name="artiste">
+	  		   				 			<element name="nom">
+	  		   				 				Tiersen
+	  		   				 			</element>
+	  		   				 			<element name="nom">
+	  		   				 				Yann
+	  		   				 			</element>
+	  		   				 		</element>
+	  		   			 <element name="chanson"> 
+	  		   			 		<attribute name="duree">
+	  		   		 				00:03:54
+	  		   					</attribute>
+	  		   			 	A quai
+	  		   			</element>
+	  		   			 <element name="chanson"> 
+	  		   			 		<attribute name="duree">
+	  		   		 				00:03:40
+	  		   					</attribute>
+	  		   			 	Comptine d'un autre ete
+	  		   			</element>
+	  				</element>	
+		 	  </oneOrMore>
+		   </element>
+		 </oneOrMore>
+	  
+	   <oneOrMore>
+	  		<element name="video">
+	  			<oneOrMore>
+	  				<element name="dvd">
+	  		   		 	<element name="titre"> 
+	  		   			 	2001, Odyssee de l'espace
+	  		   		 	</element>
+	  		   		 	<optional>
+	  		   		 	<element name="annee"> 
+	  		   			 	1968
+	  		   		 	</element>
+	  		   		 	</optional>
+	  		   		  	<element name="annee"> 
+	  		   			 	S. Kubrick
+	  		   		 	</element>
+	  				</element>
+	  				<element name="dvd">
+	  		   		 	<element name="titre"> 
+	  		   				Barry Lindon
+	  		   		 	</element>
+	  		   		  	<element name="realisateur"> 
+	  		   			 	S. Kubrick
+	  		   		 	</element>
+	  				</element>
+	  		   		<element name="br">
+	  		   		 	<element name="titre"> 
+	  		   				Les sentiers de la gloire
+	  		   		 	</element>
+	  		   		  	<optional>
+	  		   		 	<element name="annee"> 
+	  		   			 	1957
+	  		   		 	</element>
+	  		   		 	</optional>
+	  		   		  	<element name="realisateur"> 
+	  		   			 	S. Kubrick
+	  		   		 	</element>
+	  				</element>
+	  			</oneOrMore>
+	  		</element>
+	  	 </oneOrMore>
+</element>

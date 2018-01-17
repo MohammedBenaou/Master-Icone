@@ -1,0 +1,18 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php"; 
+
+$personReq = $entityManager->getRepository("Personne");
+
+$persons = $personReq->findAll(); 
+    echo " ----------------------------------------\n";
+	echo "|  ID   |   First name   |   Last name   |\n";
+	echo "|-------|----------------|---------------|\n";
+
+foreach ($persons as $i) {
+	
+	echo "   ".$i->getId()."        ".$i->getFirstName()."            ".$i->getLastName()."\n";
+
+	echo "|-------|----------------|---------------|\n";
+}

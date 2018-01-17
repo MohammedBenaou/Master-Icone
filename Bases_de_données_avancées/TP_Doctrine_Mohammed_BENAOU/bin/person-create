@@ -1,0 +1,17 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php";
+
+$personne = new Personne();
+$first=$argv[1]; // le premier argument
+$last=$argv[2]; // le deuxième argument
+
+$personne->setFirstName($first);
+$personne->setLastName($last);
+
+$entityManager->persist($personne);
+$entityManager->flush();
+
+echo "Onsuccess : ".$first." ".$last." est ajouté \n";
+echo "         => Id: " . $personne->getId() . "\n";

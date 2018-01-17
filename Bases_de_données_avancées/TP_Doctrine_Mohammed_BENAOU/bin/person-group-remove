@@ -1,0 +1,26 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php";
+
+$personne = $entityManager->find("Personne", $argv[1]);
+$groupe = $entityManager->find("Groupe", $argv[2]);
+
+if($personne) {
+  if($groupe) {
+
+    $personne->removeGroupe($groupe);
+    $groupe->removePersonne($personne);
+
+    $entityManager->persist($groupe);
+    $entityManager->persist($personne);
+
+    $entityManager->flush();
+    echo "Onsuccess \n";
+    echo "=> ". $personne->getFirstName() . " " . $personne->getLastName()."  est supprimé du groupe " .$groupe->getName(). "\n";
+  } else {
+    echo "Le groupe n'existe pas"."\n";
+  }
+} else {
+  echo "La personne n'existe pas"."\n";
+}

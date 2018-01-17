@@ -1,0 +1,11 @@
+<?xml version='1.0' standalone="no" ?>
+<!DOCTYPE graphe SYSTEM "graphe.dtd">
+<graphe>
+	<node serial="n1"></node>
+	<node serial="n2"></node>
+	<node serial="n3"></node>
+	<arc serial="a1" from="n1" to="n1"></arc>
+	<arc serial="a2" from="n1" to="n2"></arc>
+	<arc serial="a3" from="n2" to="n3"></arc>	
+	<arc serial="a4" from="n3" to="n1"></arc>	
+</graphe>

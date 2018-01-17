@@ -1,0 +1,18 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php";
+
+$groupID = $argv[1];
+
+$groupe = $entityManager->find("Groupe", $groupID);
+
+if ($groupe) {
+
+	$entityManager->remove($groupe);
+	$entityManager->flush();
+	
+	echo "Onsuccess :\n=> ".$groupe->getName()." est supprimé \n";
+} else {
+	echo "Ce ID n'existe pas \n";
+}

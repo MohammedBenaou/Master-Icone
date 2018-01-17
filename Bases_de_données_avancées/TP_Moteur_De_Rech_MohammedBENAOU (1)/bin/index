@@ -1,0 +1,23 @@
+#!/usr/bin/php -Cq
+<?php 
+
+/**
+ * bin/index
+ *
+ * @copyright  2015 Christophe Demko christophe.demko@univ-lr.fr
+ * @license    CeCILL-B http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.html
+ */
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+if (isset($argv[1]))
+{
+	try
+	{
+		MySearchEngine\EngineBuilder::create()->build()->index($argv[1]);
+	}
+	catch (\Exception $e)
+	{
+		echo $e->getMessage() . PHP_EOL;
+	}
+}

@@ -1,0 +1,17 @@
+#!/usr/bin/php -Cq
+<?php
+
+
+require_once "bootstrap.php";
+
+
+$groupeReq = $entityManager->getRepository("Groupe");
+$groupe = $groupeReq->findAll();
+	echo " ----------------------------\n";
+	echo "|  ID   |         Type       |\n";
+	echo "|-------|--------------------|\n";
+foreach ($groupe as $i) {
+	echo "    ".$i->getId()."       ".$i->getName()."\n";
+	echo "|-------|--------------------|\n";
+}
+

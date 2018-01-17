@@ -1,0 +1,14 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php";
+
+$person = $entityManager->find("Personne", $argv[1]);
+
+if ($person) {
+	echo "-La personne est : ".$person->getFirstName(). " " . $person->getLastName() . "\n";
+	foreach($person->getPhones() as $i) {
+		echo "-Le numéro de Téléphone : " . $i->getNumero() . "\n";
+		echo "-Le type de numéro de téléphone : " . $i->getType()->getType()."\n";
+	}
+} 

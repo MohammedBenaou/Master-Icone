@@ -1,0 +1,17 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once 'bootstrap.php';
+
+$num = $argv[1];
+
+
+$phone = $entityManager->getRepository("Telephone")->findOneBy(array("numero" => $num));
+
+if ($phone) {
+
+	$entityManager->remove($phone);
+	$entityManager->flush();
+	echo "Onsuccess \n";
+	echo "=> Le numéro de Télephone ". $phone->getNumero() . " est supprimé \n";
+} 

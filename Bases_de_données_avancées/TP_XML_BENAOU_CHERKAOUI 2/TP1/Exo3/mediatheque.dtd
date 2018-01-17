@@ -1,0 +1,23 @@
+<element name= "mediatheque"
+	xmlns = "http://example.org">
+
+<!ELEMENT mediatheque (musique+, video+ ) >
+
+<!ELEMENT musique (contenu, cd+) >
+<!ELEMENT contenu (#PCDATA) >
+<!ELEMENT cd (titre, (groupe|artiste) ,chanson+ ) >
+<!ATTLIST cd type CDATA #IMPLIED>
+<!ELEMENT groupe (#PCDATA) >
+<!ELEMENT  chanson (#PCDATA) >
+<!ATTLIST chanson duree CDATA #REQUIRED>
+<!ELEMENT artiste (nom, prenom)>
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT prenom (#PCDATA) >
+
+<!ELEMENT video (dvd+, br+) >
+<!ELEMENT dvd (titre, annee?, realisateur) >
+<!ELEMENT  titre (#PCDATA) >
+<!ELEMENT  annee (#PCDATA) >
+<!ELEMENT  realisateur (#PCDATA) >
+
+

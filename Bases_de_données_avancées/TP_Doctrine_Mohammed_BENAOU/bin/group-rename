@@ -1,0 +1,15 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php";
+
+$groupID = $argv[1];
+
+$groupe = $entityManager->find("Groupe", $groupID);
+
+$groupe->setName($argv[2]);
+
+$entityManager->persist($groupe);
+$entityManager->flush();
+echo "=> Onsuccess le nom du groupe est renommé \n";
+echo "-ID du groupe : " . $groupe->getId() . "\n-Le nouveau nom : " . $groupe->getName() . "\n";

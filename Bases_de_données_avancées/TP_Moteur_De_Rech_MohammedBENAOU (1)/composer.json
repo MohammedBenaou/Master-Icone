@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {"MySearchEngine\\": "src/"}
+    },
+    "require": {
+        "smalot/pdfparser": "*",
+	"elasticsearch/elasticsearch": "~6.0",
+	"phpoffice/phpword" : "*",
+	"phpoffice/phpexcel" : "*",
+	"phpoffice/phppresentation" : "*",
+	"cnlpete/image-metadata-parser":"*"
+    }
+}

@@ -1,0 +1,27 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php";
+
+$personne = $entityManager->find("Personne", $argv[1]);
+$groupe = $entityManager->find("Groupe", $argv[2]);
+
+
+if($personne) {
+
+  if($groupe) {
+
+    $groupe->addPersonne($personne);
+    $personne->addGroupe($groupe);
+
+    $entityManager->persist($personne);
+    $entityManager->persist($groupe);
+    $entityManager->flush();
+    echo "Onsuccess \n";
+    echo "=> ajouter ". $personne->getFirstName() . " " . $personne->getLastName()."  au groupe " .$groupe->getName(). "\n";
+  } else {
+    echo "Le groupe n'existe pas"."\n";
+  }
+} else {
+  echo "La personne n'existe pas"."\n";
+}

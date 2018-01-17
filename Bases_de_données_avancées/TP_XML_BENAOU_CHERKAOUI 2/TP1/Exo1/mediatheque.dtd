@@ -1,0 +1,7 @@
+<!ENTITY % musique SYSTEM "musique.dtd">
+<!ENTITY % video SYSTEM "video.dtd">
+<!ELEMENT mediatheque (musique?, video?)>
+%musique;
+%video;
+<!ATTLIST mediatheque xmlns CDATA #FIXED "http://media.org">
+

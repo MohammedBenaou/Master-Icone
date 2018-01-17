@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <ref name="personne"/>
+  </start>
+  <define name="personne">
+    <element name="personne">
+      <interleave>
+        <ref name="nom"/>
+        <OneOrMore>
+          <ref name="prenom"/>
+        </OneOrMore>
+        <optional>
+          <ref name="date_naissance"/>
+        </optional>
+      </interleave>
+    </element>
+  </define>
+  <define name="nom">
+    <element name="nom">
+      <attribute name="nom_jeune_fille">
+        <text/>
+      </attribute>
+      <text/>
+    </element>
+  </define>
+  <define name="prenom">
+    <element name="prenom">
+      <text/>
+    </element>
+  </define>
+  <define name="date_naissance">
+    <element name="date_naissance">
+      <data type="date"/>
+      <empty/>
+    </element>
+  </define>
+</grammar>

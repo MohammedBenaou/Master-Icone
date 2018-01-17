@@ -1,0 +1,19 @@
+<!ELEMENT mediatheque (musique,video)>
+<!ATTLIST mediatheque xmlns CDATA #FIXED "http://media.org">
+<!ELEMENT musique (contenu,cd+)>
+<!ELEMENT contenu (#PCDATA)>
+<!ELEMENT cd (titre,(groupe|artiste),chanson+)>
+<!ATTLIST cd 
+	type (CD|SACD) "CD">
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT groupe (#PCDATA)>
+<!ELEMENT chanson (#PCDATA)>
+<!ATTLIST chanson duree CDATA #IMPLIED>
+<!ELEMENT artiste (nom,prenom)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT video (dvd+,br)>
+<!ELEMENT dvd (titre,annee?,realisateur)>
+<!ELEMENT annee (#PCDATA)>
+<!ELEMENT realisateur (#PCDATA)>
+<!ELEMENT br (titre,annee,realisateur)>

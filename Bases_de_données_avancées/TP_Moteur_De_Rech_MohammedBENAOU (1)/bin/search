@@ -1,0 +1,28 @@
+#!/usr/bin/php -Cq
+<?php
+
+/**
+ * bin/search
+ *
+ * @copyright  2015 Christophe Demko christophe.demko@univ-lr.fr
+ * @license    CeCILL-B http://www.cecill.info/licences/Licence_CeCILL-B_V1-en.html
+ */
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+if (isset($argv[1]))
+{
+	try
+	{
+		$result = MySearchEngine\EngineBuilder::create()->build()->search($argv[1]);
+
+		foreach($result as $hit)
+		{
+			printf("%0.8f\t%s\n", $hit['score'], $hit['path']);
+		}
+	}
+	catch (\Exception $e)
+	{
+		echo $e->getMessage() . PHP_EOL;
+	}
+}

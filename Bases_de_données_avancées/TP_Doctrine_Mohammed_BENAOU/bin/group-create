@@ -1,0 +1,14 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php";
+
+$groupe = new Groupe;
+$groupe->setName($argv[1]);
+
+
+$entityManager->persist($groupe);
+$entityManager->flush();
+echo "=> Onsuccess le groupe est crée \n";
+echo "-ID : ".$groupe->getId()."\n";
+echo "-Le nom du groupe : ".$groupe->getName()."\n";

@@ -1,0 +1,18 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php";
+
+$groupe = $entityManager->find("Groupe", $argv[1]);
+
+if($groupe) {
+  echo "Le Groupe : ".$groupe->getName()."\n";
+
+  foreach($groupe->getPersonnes() as $i) {
+    echo "    => Les membres sont : ".$i->getFirstName()."  ".$i->getLastName()."\n";
+
+	}
+
+} else {
+  echo "Le groupe n'existe pas"."\n";
+}

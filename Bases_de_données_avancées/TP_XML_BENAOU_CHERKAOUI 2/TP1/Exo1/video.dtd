@@ -1,0 +1,5 @@
+<!ELEMENT video (dvd*, br*)>
+<!ELEMENT dvd (titre, annee?, realisateur)>
+<!ELEMENT br (titre, annee?, realisateur)>
+<!ELEMENT annee (#PCDATA)>
+<!ELEMENT realisateur (#PCDATA)>

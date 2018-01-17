@@ -1,0 +1,9 @@
+<!ELEMENT graphe (node+,arc+)>
+<!ELEMENT node EMPTY>
+<!ATTLIST node 
+	serial ID #REQUIRED>
+<!ELEMENT arc EMPTY>
+<!ATTLIST arc 
+	serial ID #REQUIRED
+	from IDREF #REQUIRED
+	to IDREF #REQUIRED>

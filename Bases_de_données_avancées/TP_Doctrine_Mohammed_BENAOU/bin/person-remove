@@ -1,0 +1,13 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php";
+
+$PersonID = $argv[1];
+$person = $entityManager->find("Personne", $PersonID);
+
+if ($person) {
+	$entityManager->remove($person);
+	$entityManager->flush();
+	echo "Onsuccess : " . $person->getFirstName() . " " . $person->getLastName() . " est supprimé "."\n";
+} 

@@ -1,0 +1,28 @@
+#!/usr/bin/php -Cq
+<?php
+
+require_once "bootstrap.php";
+
+$telephone = new Telephone;
+
+$type = new Type;
+
+$telephone->setNumero($argv[2]);
+$type->setType($argv[3]);
+
+$type->addPhone($telephone);
+$telephone->setType($type);
+
+$PersonID = $argv[1];
+
+$personne = $entityManager->find("Personne", $PersonID);
+
+$personne->addPhone($telephone);
+$telephone->setPersonne($personne);
+
+$entityManager->persist($personne);
+$entityManager->persist($telephone);
+$entityManager->persist($type);
+$entityManager->flush();
+
+echo"-Le type de numéro de téléphone : " . $telephone->getType()->getType() ."\n-Le numéro de téléphone : " . $telephone->getNumero() . "\n-Le propriétaire du némero : " . $personne->getFirstName() . " " . $personne->getLastName(). "\n";
