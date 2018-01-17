@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dataset="https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016">
+    <channel>
+        <title>trafic-annuel-entrant-par-station-du-reseau-ferre-2016</title>
+        <atom:link href="https://data.ratp.fr/api/records/1.0/search/?dataset=trafic-annuel-entrant-par-station-du-reseau-ferre-2016&amp;start=0&amp;rows=10&amp;format=rss" rel="self"/>
+        <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016?dataset=trafic-annuel-entrant-par-station-du-reseau-ferre-2016&amp;start=0&amp;rows=10</link>
+        <description>Records for the dataset 'trafic-annuel-entrant-par-station-du-reseau-ferre-2016'</description>
+        <pubDate>Wed, 19 Apr 2017 08:30:02 +0000</pubDate>
+        
+            <item>
+                <title>061eb4473677773507b8f75fd02fce3aff9ad959</title>
+                <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/061eb4473677773507b8f75fd02fce3aff9ad959</link>
+                
+                    <pubDate>Wed, 19 Apr 2017 08:29:42 +0000</pubDate>
+                
+                <guid>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/061eb4473677773507b8f75fd02fce3aff9ad959</guid>
+                
+                    <dataset:rang>3</dataset:rang>
+                
+                    <dataset:reseau>Métro</dataset:reseau>
+                
+                    <dataset:station>GARE DE LYON</dataset:station>
+                
+                    <dataset:trafic>36352115</dataset:trafic>
+                
+                    <dataset:correspondance-1>1</dataset:correspondance-1>
+                
+                    <dataset:correspondance-2>14</dataset:correspondance-2>
+                
+                    <dataset:correspondance-3>A</dataset:correspondance-3>
+                
+                    <dataset:ville>Paris</dataset:ville>
+                
+                    <dataset:arrondissement-pour-paris>12</dataset:arrondissement-pour-paris>
+                
+            </item>
+        
+            <item>
+                <title>e8cc9a5f9873d99b586123e4d01eb369b7071ebe</title>
+                <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/e8cc9a5f9873d99b586123e4d01eb369b7071ebe</link>
+                
+                    <pubDate>Wed, 19 Apr 2017 08:29:42 +0000</pubDate>
+                
+                <guid>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/e8cc9a5f9873d99b586123e4d01eb369b7071ebe</guid>
+                
+                    <dataset:rang>6</dataset:rang>
+                
+                    <dataset:reseau>Métro</dataset:reseau>
+                
+                    <dataset:station>REPUBLIQUE</dataset:station>
+                
+                    <dataset:trafic>18340798</dataset:trafic>
+                
+                    <dataset:correspondance-1>3</dataset:correspondance-1>
+                
+                    <dataset:correspondance-2>5</dataset:correspondance-2>
+                
+                    <dataset:correspondance-3>8</dataset:correspondance-3>
+                
+                    <dataset:correspondance-4>9</dataset:correspondance-4>
+                
+                    <dataset:correspondance-5>11</dataset:correspondance-5>
+                
+                    <dataset:ville>Paris</dataset:ville>
+                
+                    <dataset:arrondissement-pour-paris>11</dataset:arrondissement-pour-paris>
+                
+            </item>
+        
+            <item>
+                <title>80eb9a3466b61558a402a80c85780236b662806e</title>
+                <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/80eb9a3466b61558a402a80c85780236b662806e</link>
+                
+                    <pubDate>Wed, 19 Apr 2017 08:29:42 +0000</pubDate>
+                
+                <guid>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/80eb9a3466b61558a402a80c85780236b662806e</guid>
+                
+                    <dataset:rang>13</dataset:rang>
+                
+                    <dataset:reseau>Métro</dataset:reseau>
+                
+                    <dataset:station>PLACE D&#39;ITALIE</dataset:station>
+                
+                    <dataset:trafic>11462253</dataset:trafic>
+                
+                    <dataset:correspondance-1>5</dataset:correspondance-1>
+                
+                    <dataset:correspondance-2>6</dataset:correspondance-2>
+                
+                    <dataset:correspondance-3>7</dataset:correspondance-3>
+                
+                    <dataset:ville>Paris</dataset:ville>
+                
+                    <dataset:arrondissement-pour-paris>13</dataset:arrondissement-pour-paris>
+                
+            </item>
+        
+            <item>
+                <title>cf2f51bde0a6869efa7c1e70795d6dbde35c0a62</title>
+                <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/cf2f51bde0a6869efa7c1e70795d6dbde35c0a62</link>
+                
+                    <pubDate>Wed, 19 Apr 2017 08:29:42 +0000</pubDate>
+                
+                <guid>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/cf2f51bde0a6869efa7c1e70795d6dbde35c0a62</guid>
+                
+                    <dataset:rang>16</dataset:rang>
+                
+                    <dataset:reseau>Métro</dataset:reseau>
+                
+                    <dataset:station>FRANKLIN D. ROOSEVELT</dataset:station>
+                
+                    <dataset:trafic>10899310</dataset:trafic>
+                
+                    <dataset:correspondance-1>1</dataset:correspondance-1>
+                
+                    <dataset:correspondance-2>9</dataset:correspondance-2>
+                
+                    <dataset:ville>Paris</dataset:ville>
+                
+                    <dataset:arrondissement-pour-paris>8</dataset:arrondissement-pour-paris>
+                
+            </item>
+        
+            <item>
+                <title>2189cb7719904d9a99b46a4c9e5838332bac5511</title>
+                <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/2189cb7719904d9a99b46a4c9e5838332bac5511</link>
+                
+                    <pubDate>Wed, 19 Apr 2017 08:29:42 +0000</pubDate>
+                
+                <guid>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/2189cb7719904d9a99b46a4c9e5838332bac5511</guid>
+                
+                    <dataset:rang>24</dataset:rang>
+                
+                    <dataset:reseau>Métro</dataset:reseau>
+                
+                    <dataset:station>NATION</dataset:station>
+                
+                    <dataset:trafic>8792715</dataset:trafic>
+                
+                    <dataset:correspondance-1>1</dataset:correspondance-1>
+                
+                    <dataset:correspondance-2>2</dataset:correspondance-2>
+                
+                    <dataset:correspondance-3>6</dataset:correspondance-3>
+                
+                    <dataset:correspondance-4>9</dataset:correspondance-4>
+                
+                    <dataset:ville>Paris</dataset:ville>
+                
+                    <dataset:arrondissement-pour-paris>12</dataset:arrondissement-pour-paris>
+                
+            </item>
+        
+            <item>
+                <title>11206d447b4c71ed3630df19f4ee31f7cb27c072</title>
+                <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/11206d447b4c71ed3630df19f4ee31f7cb27c072</link>
+                
+                    <pubDate>Wed, 19 Apr 2017 08:29:42 +0000</pubDate>
+                
+                <guid>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/11206d447b4c71ed3630df19f4ee31f7cb27c072</guid>
+                
+                    <dataset:rang>27</dataset:rang>
+                
+                    <dataset:reseau>Métro</dataset:reseau>
+                
+                    <dataset:station>TROCADERO</dataset:station>
+                
+                    <dataset:trafic>8351649</dataset:trafic>
+                
+                    <dataset:correspondance-1>6</dataset:correspondance-1>
+                
+                    <dataset:correspondance-2>9</dataset:correspondance-2>
+                
+                    <dataset:ville>Paris</dataset:ville>
+                
+                    <dataset:arrondissement-pour-paris>16</dataset:arrondissement-pour-paris>
+                
+            </item>
+        
+            <item>
+                <title>7e47e438156af3e47715f31c5466bcecb9aba82b</title>
+                <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/7e47e438156af3e47715f31c5466bcecb9aba82b</link>
+                
+                    <pubDate>Wed, 19 Apr 2017 08:29:42 +0000</pubDate>
+                
+                <guid>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/7e47e438156af3e47715f31c5466bcecb9aba82b</guid>
+                
+                    <dataset:rang>33</dataset:rang>
+                
+                    <dataset:reseau>Métro</dataset:reseau>
+                
+                    <dataset:station>AUBERVILLIERS-PANTIN-QUATRE CHEMINS</dataset:station>
+                
+                    <dataset:trafic>7381123</dataset:trafic>
+                
+                    <dataset:correspondance-1>7</dataset:correspondance-1>
+                
+                    <dataset:ville>Aubervilliers</dataset:ville>
+                
+            </item>
+        
+            <item>
+                <title>1bb951ddcbb3282542b75c80140b4542a7d085c6</title>
+                <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/1bb951ddcbb3282542b75c80140b4542a7d085c6</link>
+                
+                    <pubDate>Wed, 19 Apr 2017 08:29:42 +0000</pubDate>
+                
+                <guid>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/1bb951ddcbb3282542b75c80140b4542a7d085c6</guid>
+                
+                    <dataset:rang>42</dataset:rang>
+                
+                    <dataset:reseau>Métro</dataset:reseau>
+                
+                    <dataset:station>MADELEINE</dataset:station>
+                
+                    <dataset:trafic>6992609</dataset:trafic>
+                
+                    <dataset:correspondance-1>8</dataset:correspondance-1>
+                
+                    <dataset:correspondance-2>12</dataset:correspondance-2>
+                
+                    <dataset:correspondance-3>14</dataset:correspondance-3>
+                
+                    <dataset:ville>Paris</dataset:ville>
+                
+                    <dataset:arrondissement-pour-paris>8</dataset:arrondissement-pour-paris>
+                
+            </item>
+        
+            <item>
+                <title>d225fbf5133671132957c607079f7ba80fdc8ed1</title>
+                <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/d225fbf5133671132957c607079f7ba80fdc8ed1</link>
+                
+                    <pubDate>Wed, 19 Apr 2017 08:29:42 +0000</pubDate>
+                
+                <guid>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/d225fbf5133671132957c607079f7ba80fdc8ed1</guid>
+                
+                    <dataset:rang>44</dataset:rang>
+                
+                    <dataset:reseau>Métro</dataset:reseau>
+                
+                    <dataset:station>GRANDS BOULEVARDS</dataset:station>
+                
+                    <dataset:trafic>6889717</dataset:trafic>
+                
+                    <dataset:correspondance-1>8</dataset:correspondance-1>
+                
+                    <dataset:correspondance-2>9</dataset:correspondance-2>
+                
+                    <dataset:ville>Paris</dataset:ville>
+                
+                    <dataset:arrondissement-pour-paris>9</dataset:arrondissement-pour-paris>
+                
+            </item>
+        
+            <item>
+                <title>484c6fa3366ddaa1ba79ffb479dc4bd333e9d6d7</title>
+                <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/484c6fa3366ddaa1ba79ffb479dc4bd333e9d6d7</link>
+                
+                    <pubDate>Wed, 19 Apr 2017 08:29:42 +0000</pubDate>
+                
+                <guid>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/484c6fa3366ddaa1ba79ffb479dc4bd333e9d6d7</guid>
+                
+                    <dataset:rang>40</dataset:rang>
+                
+                    <dataset:reseau>Métro</dataset:reseau>
+                
+                    <dataset:station>STALINGRAD</dataset:station>
+                
+                    <dataset:trafic>7063687</dataset:trafic>
+                
+                    <dataset:correspondance-1>2</dataset:correspondance-1>
+                
+                    <dataset:correspondance-2>5</dataset:correspondance-2>
+                
+                    <dataset:correspondance-3>7</dataset:correspondance-3>
+                
+                    <dataset:ville>Paris</dataset:ville>
+                
+                    <dataset:arrondissement-pour-paris>19</dataset:arrondissement-pour-paris>
+                
+            </item>
+        
+    </channel>
+</rss>

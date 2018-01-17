@@ -1,0 +1,4 @@
+drop DOMAIN if exists D_TENNIS_SCORE;
+
+CREATE DOMAIN D_TENNIS_SCORE as CHAR(4) 
+check (VALUE ~'j\d{3}');

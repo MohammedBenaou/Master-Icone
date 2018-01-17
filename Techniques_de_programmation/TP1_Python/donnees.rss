@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dataset="https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016">
+    <channel>
+        <title>trafic-annuel-entrant-par-station-du-reseau-ferre-2016</title>
+        <atom:link href="https://data.ratp.fr/api/records/1.0/search/?dataset=trafic-annuel-entrant-par-station-du-reseau-ferre-2016&amp;start=0&amp;rows=1&amp;format=rss" rel="self"/>
+        <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016?dataset=trafic-annuel-entrant-par-station-du-reseau-ferre-2016&amp;start=0&amp;rows=1</link>
+        <description>Records for the dataset 'trafic-annuel-entrant-par-station-du-reseau-ferre-2016'</description>
+        <pubDate>Wed, 19 Apr 2017 08:30:02 +0000</pubDate>
+        
+            <item>
+                <title>061eb4473677773507b8f75fd02fce3aff9ad959</title>
+                <link>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/061eb4473677773507b8f75fd02fce3aff9ad959</link>
+                
+                    <pubDate>Wed, 19 Apr 2017 08:29:42 +0000</pubDate>
+                
+                <guid>https://data.ratp.fr/api/datasets/1.0/trafic-annuel-entrant-par-station-du-reseau-ferre-2016/records/061eb4473677773507b8f75fd02fce3aff9ad959</guid>
+                
+                    <dataset:rang>3</dataset:rang>
+                
+                    <dataset:reseau>Métro</dataset:reseau>
+                
+                    <dataset:station>GARE DE LYON</dataset:station>
+                
+                    <dataset:trafic>36352115</dataset:trafic>
+                
+                    <dataset:correspondance-1>1</dataset:correspondance-1>
+                
+                    <dataset:correspondance-2>14</dataset:correspondance-2>
+                
+                    <dataset:correspondance-3>A</dataset:correspondance-3>
+                
+                    <dataset:ville>Paris</dataset:ville>
+                
+                    <dataset:arrondissement-pour-paris>12</dataset:arrondissement-pour-paris>
+                
+            </item>
+        
+    </channel>
+</rss>
